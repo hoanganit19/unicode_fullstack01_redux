@@ -1,0 +1,25 @@
+1. Redux Core: Hiểu rõ hơn cách hoạt động của Redux, cách setup Redux cho project
+2. Redux Toolkit: Setup nhanh hơn, code gọn gàng hơn => Phù hợp làm dự án 
+3. Redux Middleware: Thunk => Làm việc với 
+
+Thành phần của Redux 
+
+- Store => Các state sẽ nằm ở 1 kho chung 
+- Reducer => Function
+- Action => Đối tượng
+- Action Creator => Function tạo 1 đối tượng (action)
+- Dispatch => Function giúp gửi action lên Reducer
+- Selector Creator => Function
+
+Hook trong Redux: 
+- useSelector() => Lấy dữ liệu từ Redux  
+- useDispatch() => Đẩy dữ liệu lên Redux
+
+Redux Toolkit
+- Store.js
+- Slice (Reducer tương ứng với từng module)
++ Selector
++ Action
++ Reducer
+
+=> Bài tập về nhà: Xây dựng ứng dụng todo list sử dụng Redux Core
