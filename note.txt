@@ -40,3 +40,16 @@ Các trạng thái trong Fetch API
 - pending => Chờ
 - fulfilled => Thành công
 - reject => Thất bại
+
+http://unicode.vn
+/path/images
+
+=> http://unicode.vn/path/images
+
+accessToken: 
+- Dùng để truy cập lấy tài nguyên
+- Thời gian sống ngắn
+
+refreshToken
+- Không dùng để lấy tài nguyên 
+- Thời gian sống lâu

@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "hoangan.web@gmail.com",
+      "password": "$2a$10$LQBVf9o5OdSHOn0NUQCV2O6D6ZEhLktgZwGQoD56NJnzP1gGoFiDG",
+      "name": "Hoàng An",
+      "id": 1
+    }
+  ],
+
+  "products": [
+    "Item 1",
+    "Item 2",
+    "Item 3"
+  ]
+}

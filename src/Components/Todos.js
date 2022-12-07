@@ -4,6 +4,25 @@ import ShowTodos from "./ShowTodos";
 //import { todoSelector } from "../Redux/Selectors/todoSelector";
 //import { addTodo, fetchTodos } from "../Redux/Actions/todoActions";
 import { todoSelector, todoActions, fetchTodos, deleteTodo } from "./todoSlice";
+import todoStyles from "./Todos.module.scss";
+//import normalStyles from "./Normal.module.scss";
+import clsx from "clsx";
+import logo from "../logo.svg";
+import logo2 from "../Images/UNICODE_logo.png";
+
+// console.log(logo);
+// console.log(logo2);
+
+const { "btn-success": btnSuccess, btn } = todoStyles;
+//console.log(normalStyles);
+
+const logoPublic = process.env.PUBLIC_URL + "/logo192.png";
+
+// if (process.env.NODE_ENV === "developement") {
+//   //Call api sandbox
+// } else {
+//   //Call api live
+// }
 
 export default function Todos() {
   const { addTodo, removeTodo } = todoActions;
@@ -35,7 +54,13 @@ export default function Todos() {
 
   return (
     <div>
-      <button type="button" onClick={handleClick}>
+      <img src={logo2} />
+      <img src={logoPublic} />
+      <button
+        type="button"
+        className={clsx(btn, btnSuccess)}
+        onClick={handleClick}
+      >
         Add
       </button>
       <div>
